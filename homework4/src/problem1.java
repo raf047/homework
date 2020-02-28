@@ -3,13 +3,10 @@ import java.util.Scanner;
 
 public class problem1 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
-        System.out.println("Input seconds: ");
-        int x = scan.nextInt();
-        int y = scan.nextInt();
-        if (x * y > 0 || (x == 0 && y == 0))
-            System.out.println(" TRUE ");
-        else
-            System.out.println(" FALSE ");
+        int i = 1;
+        while(i <= 50) {
+            System.out.println(i);
+            i++;
+        }
     }
 }
